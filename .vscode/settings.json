@@ -1,0 +1,14 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "cSpell.ignoreWords": [
+    "entity",
+    "execption",
+    "handler",
+    "metadatas",
+    "middlewares",
+    "typeorm",
+    "varchar"
+  ]
+}
