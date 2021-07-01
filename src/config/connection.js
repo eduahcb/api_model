@@ -7,8 +7,8 @@ class Connection {
     await createConnection({
       type: 'sqlite',
       database: '../database/db.sql',
-      synchronize: true,
-      entities: [AuthorEntity], // somente em ambiente de teste
+      synchronize: true, // somente em ambiente de teste
+      entities: [AuthorEntity], 
     })
   }
 
